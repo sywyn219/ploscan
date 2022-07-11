@@ -1,0 +1,12 @@
+pub mod cpu_worker;
+pub mod miner;
+pub mod plot;
+pub mod poc_hashing;
+pub mod reader;
+pub mod requests;
+pub mod shabal256;
+pub mod utils;
+pub mod config;
+pub mod miner_power;
+pub mod logger;
+pub mod scanbool;

@@ -1,0 +1,15 @@
+[package]
+name = "asyncfutures"
+version = "0.1.0"
+authors = ["栗文龙 <liwenlong@16.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures = { version = "0.3.5", features = ["compat"] }
+hyper = "0.12.9"
+jsonrpc-http-server = "14.2"
+tokio = {version = "0.2",features = ["full"]}
+mini-redis = "0.2"
+async-std = "1.6.2"
